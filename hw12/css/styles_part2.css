@@ -1,0 +1,115 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+}
+
+.page {
+  background-color: #e5eeee;
+  width: 100vw;
+  height: 100vh;
+}
+
+.form {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 80%;
+  width: 40%;
+  background: -o-linear-gradient(54deg, #3023ae, #c66cd6);
+  background: linear-gradient(1.1turn, #3023ae, #c66cd6);
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-shadow: 15px 15px 50px 20px grey;
+  box-shadow: 15px 15px 50px 20px grey;
+}
+
+.link {
+  background-color: rgba(1, 1, 1, 0);
+  text-decoration: none;
+  margin-right: 5%;
+  color: #fbf6e4;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.link--focus:focus {
+  border-bottom: solid 2px #e66a64;
+}
+
+.link--small {
+  color: #b9b9cc;
+  font-family: "Quicksand", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.form-block {
+  height: 15%;
+  width: 90%;
+}
+
+.form__label {
+  display: block;
+  color: #fbf6e4;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 2%;
+}
+
+.form__label--inline {
+  display: inline;
+  margin-left: 2%;
+}
+
+.form__label--small {
+  font-size: 13px;
+}
+
+.form__input {
+  background-color: rgba(1, 1, 1, 0);
+  border: 2px solid rgba(191, 185, 204, 0.54);
+  height: 70%;
+  width: 95%;
+  color: #fbf6e4;
+  font-family: "Quicksand", sans-serif;
+}
+
+.button {
+  background-color: rgba(1, 1, 1, 0);
+  border: none;
+  color: #fbf6e4;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
