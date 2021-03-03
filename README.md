@@ -1,1 +1,7 @@
-# beetroot_hws_after10
+# Repo with all home works, starting from 11th in Beetroot
+
+## Branches
+
+| Branch name |           Home work            |   Folders    |
+| ----------- | :----------------------------: | :----------: |
+| hw13        | Scalable Vector Graphics (SVG) | cachee, hw13 |
