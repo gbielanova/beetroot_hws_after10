@@ -421,3 +421,8 @@
   font-size: 15px;
   font-weight: 300;
 }
+
+.svg {
+  height: 80%;
+  width: 80%;
+}
