@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="css/styles_part2.css" />
+    <title>Home work 12. Task 2</title>
+  </head>
+  <body class="page">
+    <form class="form" action="#" method="GET">
+      <header class="header">
+        <div>
+          <a href="#" class="link link--focus">Sign in</a>
+          <a href="#" class="link link--focus">Join us</a>
+        </div>
+      </header>
+      <div class="form-block">
+        <label class="form__label" for="Username">Username</label>
+        <input
+          class="form__input"
+          minlength="3"
+          type="text"
+          name="Username"
+          id="Username"
+        />
+      </div>
+      <div class="form-block">
+        <label class="form__label" for="Password">Password</label>
+        <input
+          class="form__input"
+          required
+          type="password"
+          name="Password"
+          id="Password"
+        />
+      </div>
+      <div>
+        <input checked type="checkbox" name="keep" id="keep" />
+        <label
+          class="form__label form__label--inline form__label--small"
+          for="keep"
+        >
+          Keep me signed in
+        </label>
+      </div>
+      <button type="submit" class="button">Sign in</button>
+      <footer class="footer">
+        <a href="#" class="link link--small">Forgot password</a>
+        <a href="#" class="link link--small">Create an account</a>
+      </footer>
+    </form>
+  </body>
+</html>
