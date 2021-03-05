@@ -47,7 +47,7 @@
 
 .author {
   color: #b4b4b4;
-  font-family: ProximaNovaRegular;
+  font-family: ProximaNovaRegular, sans-serif;
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
@@ -57,7 +57,7 @@
 
 .title {
   color: #2a2a2a;
-  font-family: SimilarToFutura;
+  font-family: SimilarToFutura, sans-serif;
   font-size: 70px;
   font-weight: 400;
   text-transform: uppercase;
