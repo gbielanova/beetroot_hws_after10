@@ -1,0 +1,35 @@
+/* Table 768 -> 1024 laptop */
+@media screen and (max-width: 1023px) {
+  .page--second {
+    background-size: 50%;
+  }
+
+  .page--service {
+    background-size: 40%;
+  }
+
+  .page__content {
+    margin: 0 10%;
+  }
+
+  .page__photos {
+    width: 100%;
+  }
+
+  .svg {
+    height: 80%;
+    width: 80%;
+  }
+
+  .fas {
+    font-size: 2em;
+  }
+
+  .services {
+    width: 60%;
+  }
+
+  .page__header--right {
+    text-align: right;
+  }
+}
