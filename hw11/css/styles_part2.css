@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url(../webfonts/ProximaNova/Proxima\ Nova\ Regular.otf);
+}
+
+@font-face {
+  font-family: SimilarToFutura;
+  src: url(../webfonts/SimilarToFutura/NFL-Steelers.ttf.woff);
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #464f54;
+}
+
+.page-area {
+  width: 90%;
+  height: 85%;
+  -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+  background-color: #ffffff;
+  position: absolute;
+  right: 2%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.side-bar {
+  border-right: 2px solid #e8eced;
+  width: 5%;
+  margin: 0 5%;
+}
+
+.page-texts {
+  margin: 15% 5% 5% 0;
+}
+
+.author {
+  color: #b4b4b4;
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6.72px;
+  margin-bottom: 40px;
+}
+
+.title {
+  color: #2a2a2a;
+  font-family: SimilarToFutura, sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5.28px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #8f8f8f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.text {
+  color: #000000;
+  font-size: 27px;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+
+.text-special {
+  font-style: italic;
+}
+
+.edit-title {
+  -webkit-box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  background-color: #181818;
+  position: absolute;
+  width: 70%;
+  height: 15%;
+  right: 0;
+  top: 5%;
+  padding: 1% 0 0 5%;
+}
+
+.edit-title__title {
+  color: #767676;
+  font-family: ProximaNovaRegular;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+}
+
+.edit-title__text {
+  color: #fefefe;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.edit-title__hr {
+  background-color: #ffffff;
+  opacity: 0.1;
+}
+
+.edit-panel {
+  -webkit-box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  background-color: #fbc02d;
+  position: absolute;
+  width: 65%;
+  height: 5%;
+  right: 0;
+  top: 20%;
+}
+
+.edit-panel {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 10%;
+}
