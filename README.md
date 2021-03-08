@@ -2,8 +2,9 @@
 
 ## Branches
 
-| Branch name |           Home work            |   Folders    |
-| ----------- | :----------------------------: | :----------: |
-| hw11        |    Шрифти у вебі, Font Face    |     hw11     |
-| hw12        |         Побудова форм          | cachee, hw12 |
-| hw13        | Scalable Vector Graphics (SVG) | cachee, hw13 |
+| Branch name |                 Home work                 |   Folders    |
+| ----------- | :---------------------------------------: | :----------: |
+| hw11        |         Шрифти у вебі, Font Face          |     hw11     |
+| hw12        |               Побудова форм               | cachee, hw12 |
+| hw13        |      Scalable Vector Graphics (SVG)       | cachee, hw13 |
+| hw14        | Адаптивна верстка (Responsive web design) | cachee, hw13 |
