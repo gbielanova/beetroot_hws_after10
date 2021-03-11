@@ -9,6 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/styles_tablet.css" />
     <link rel="stylesheet" href="css/styles_mobile.css" />
@@ -19,7 +26,7 @@
     ></script>
     <title>Home work 13. Task 1</title>
   </head>
-  <body>
+  <body class="page">
     <svg display="none">
       <symbol id="quality" viewbox="0 0 55 49">
         <g>
@@ -39,16 +46,47 @@
     </svg>
 
     <header class="header">
-      <p class="logo">Cahee</p>
-      <ul class="nav">
-        <li><a href="#" class="nav__link">Home</a></li>
-        <li><a href="#about" class="nav__link">About</a></li>
-        <li><a href="#services" class="nav__link">Services</a></li>
-        <li><a href="#gallery" class="nav__link">Gallery</a></li>
-        <li><a href="#blog" class="nav__link">Blog</a></li>
-        <li><a href="#contact" class="nav__link">Contact</a></li>
-      </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <a class="navbar-brand logo d-flex justify-content-between" href="#"
+          >Cahee</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
+
     <main>
       <section class="page page--first">
         <div class="page__content">
@@ -60,7 +98,6 @@
           <buttton class="more-button">GET FREE NOW</buttton>
         </div>
       </section>
-      <img src="img/scroll.png" alt="scroll image" class="scroll" />
       <section class="page page--second page--small" id="about">
         <div
           class="page__content page__content--right-aligment page__content--white"
@@ -266,5 +303,21 @@
       <p class="company-name">Cahee</p>
       <p class="author">Made with <span class="love">love</span> by Auskteez</p>
     </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
