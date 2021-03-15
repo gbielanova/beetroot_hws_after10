@@ -21,15 +21,24 @@
   </head>
   <body>
     <header class="header">
-      <p class="logo">Cahee</p>
-      <ul class="nav">
-        <li><a href="#" class="nav__link">Home</a></li>
-        <li><a href="#" class="nav__link">About</a></li>
-        <li><a href="#" class="nav__link">Services</a></li>
-        <li><a href="#" class="nav__link">Gallery</a></li>
-        <li><a href="#" class="nav__link">Blog</a></li>
-        <li><a href="#" class="nav__link">Contact</a></li>
-      </ul>
+      <p class="logo logo-main">Cahee</p>
+
+      <div class="nav-container" id="nav-container">
+        <div class="bg"></div>
+        <div class="button" tabindex="0">
+          <p class="logo logo-mobile">Cahee</p>
+        </div>
+        <div id="nav-content" tabindex="0">
+          <ul class="nav">
+            <li><a href="#" class="nav__link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#services" class="nav__link">Services</a></li>
+            <li><a href="#gallery" class="nav__link">Gallery</a></li>
+            <li><a href="#blog" class="nav__link">Blog</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <section class="page page--first">
@@ -42,8 +51,7 @@
           <buttton class="more-button">GET FREE NOW</buttton>
         </div>
       </section>
-      <img src="img/scroll.png" alt="scroll image" class="scroll" />
-      <section class="page page--second page--small">
+      <section class="page page--second page--small" id="about">
         <div
           class="page__content page__content--right-aligment page__content--white"
         >
@@ -59,7 +67,7 @@
         </div>
       </section>
 
-      <section class="page page--service page--small">
+      <section class="page page--service page--small" id="services">
         <div class="page__content page__content--row page__content--white">
           <div class="services">
             <div class="service">
@@ -99,7 +107,7 @@
         </div>
       </section>
 
-      <section class="page page--gallery">
+      <section class="page page--gallery" id="gallery">
         <div class="page__content page__content--center-aligment">
           <h1 class="page__header">Gallery</h1>
           <p class="page__text page__text--wide">
@@ -148,7 +156,7 @@
         </div>
       </section>
 
-      <section class="page page--third">
+      <section class="page page--third" id="blog">
         <div
           class="page__content page__content--white page__content--center-aligment"
         >
@@ -194,7 +202,7 @@
           <button class="more-button more-button__blog">VIEW MORE</button>
         </div>
       </section>
-      <section class="page page--fourth">
+      <section class="page page--fourth" id="contact">
         <div class="page__content page__content--center-aligment">
           <h2 class="page__header">Contact</h2>
           <p class="page__text page__text--wide">
