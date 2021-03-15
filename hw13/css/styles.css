@@ -22,11 +22,21 @@
 }
 
 .header {
+  color: #3c3c3c;
+  font-family: "Lato", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+  position: absolute;
+  top: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: inherit;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .header:before,
