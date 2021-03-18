@@ -71,3 +71,30 @@
     flex-wrap: wrap;
   }
 }
+
+
+/* Apple iPhone 7*/
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 326dpi),
+  only screen and (                min-resolution: 2dppx)  { 
+  .page--first {
+      background-image: url(../img/iphone7/img1.png);
+  }
+}
+
+/* Samsung Galaxy S10*/
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 3),
+  only screen and (   min--moz-device-pixel-ratio: 3),
+  only screen and (     -o-min-device-pixel-ratio: 3/1),
+  only screen and (        min-device-pixel-ratio: 3),
+  only screen and (                min-resolution: 384dpi),
+  only screen and (                min-resolution: 3dppx) { 
+  .page--first {
+      background-image: url(../img/s10/img1.png);
+  }
+}
