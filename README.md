@@ -8,3 +8,4 @@
 | hw12        |               Побудова форм               | cachee, hw12 |
 | hw13        |      Scalable Vector Graphics (SVG)       | cachee, hw13 |
 | hw14        | Адаптивна верстка (Responsive web design) | cachee, hw13 |
+| hw16        | Адаптивна графіка                         | cachee       |
