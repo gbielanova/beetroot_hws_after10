@@ -3,11 +3,12 @@
 @import './normalize';
 @import './header';
 @import './photo';
+@import './about';
+@import './more';
 
 .page{
     @include flexCenter(column);
 }
-
 
 .team{
     @include flexCenter(row);
@@ -17,7 +18,6 @@
         &.fas{
             color: $goldColor;
             font-size: 40px;
-            font-weight: 400;
             margin: auto $marginTop;
             display: none;
         }
@@ -27,71 +27,21 @@
         @include flexCenter(column);
         width: 90%;
     }
-
-    &__separator{
-        background-color: $goldColor;
-        border: none;
-        margin-top: $marginTop;
-        height: 2px;
-        width: 80%;
-    }
 }
 
-.about{
-    @include flexCenter(column);
-
-    &__name{
-        color: $lightGreyColor;
-        font-family: $roboto;
-        font-size: 36px;
-        font-weight: 400;
-        margin-top: $marginTop;
+@media (min-width: 1024px){
+    .team{
+        margin-top: $marginTopDesktop;
+    
+        &__previous, &__next{
+            &.fas{
+                display: flex;
+            }
+        }
+    
+        &__member{
+            @include flexCenter(row);
+            width: 80%;
+        }
     }
-
-    &__separator{
-        border: none;
-        border-top: 2px solid $goldColor;
-        margin-top: $marginTop;
-        width: 40%; 
-    }
-
-    &__separator--dashed{
-        border-top: 4px dashed $goldColor;
-        width: 10%;
-    }
-
-    &__position{
-        color: $lightGreyColor;
-        font-family: $raleway;
-        font-size: 24px;
-        font-weight: 400;
-        margin-top: $marginTop;
-    }
-
-    &__social{
-        color: $greyColor;
-        margin-top: $marginTop;
-    }
-
-    &__description{
-        color: $darkGreyColor;
-        font-family: $raleway;
-        font-size: 14px;
-        font-weight: 500;
-        margin-top: $marginTop;
-    }
-
-    &__button{
-        border-color: $goldColor;
-        color: $lightGreyColor;
-        background-color: white;
-        font-family: $openSans;
-        margin-top: $marginTop;
-        padding: 1% 5%;
-    }
-}
-
-.more{
-    margin: $marginTop auto;
-    color: $goldColor;
 }

@@ -46,3 +46,23 @@
         }
     }
 }
+
+@media (min-width: 1024px){
+    .header{    
+        &__description{
+            margin-top: $marginTop;
+        }
+    
+        &__text{
+            margin-top: $marginTopDesktop;
+        }
+    
+        &__separation{
+            margin-top: $marginTopDesktop;
+
+            &::before, &::after{
+                width: 45%;
+            }
+        }        
+    }
+}

@@ -11,3 +11,8 @@ $raleway: 'Raleway', sans-serif;
 $roboto: 'Roboto', sans-serif;
 
 $marginTop: 5%;
+$marginTopDesktop: 2%;
+
+@media (min-width: 1024px){
+    $marginTop: 1%;
+}

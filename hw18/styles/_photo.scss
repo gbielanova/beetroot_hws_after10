@@ -1,5 +1,5 @@
 .photo{
-    padding: $marginTop / 2;
+    padding: $marginTopDesktop;
 
     background:
         linear-gradient(to right, $goldColor, 2px, transparent 2px) 0 0,
@@ -18,5 +18,12 @@
     &__img{
         width: 100%;
         border: 2px solid $goldColor;
+    }
+}
+
+@media (min-width: 1024px){
+    .photo{
+        width: 45%;
+        margin: $marginTop;
     }
 }
