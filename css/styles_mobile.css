@@ -1,0 +1,73 @@
+/* Mobile 425 -> Tablet 768 */
+@media screen and (max-width: 767px) {
+  .page--second,
+  .page--service {
+    background-image: none;
+  }
+
+  .page--subscribe {
+    background-position: 55%;
+  }
+
+  .page__content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .page__text {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+
+  .page__content--right-aligment,
+  .page__header--right,
+  .page__header,
+  .page__text--left {
+    text-align: center;
+  }
+
+  .page__content--row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .page__content--row .page__header {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .page__photos {
+    height: 50%;
+  }
+
+  .email-field {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .contact-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    height: 70%;
+  }
+
+  .contact-form {
+    height: 60%;
+    width: 100%;
+  }
+
+  .footer {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
