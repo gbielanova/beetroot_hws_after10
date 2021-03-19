@@ -1,0 +1,48 @@
+.header{
+    @include flexCenter(column);
+    width: 90%;
+
+    &__description{
+        color: $headGreyColor;
+        font-family: $raleway;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: $marginTop;
+        width: 80%;
+    }
+
+    &__text{
+        color: $goldColor;
+        font-family: $roboto;
+        font-size: 60px;
+        font-weight: 400;
+        margin-top: $marginTop;
+    }
+
+    &__separation{
+        color: $goldColor;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: $marginTop;
+        position: relative;
+        width: 80%;
+
+        &::before, &::after{
+            content: "";
+            display: block;
+            width: 40%;
+            height: 2px;
+            background: $goldColor;
+            position: absolute;
+            top: 50%;
+        }
+
+        &::before{
+            left: 0;
+        }
+
+        &::after{
+            right: 0;
+        }
+    }
+}
