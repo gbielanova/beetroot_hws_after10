@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 .articles {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,6 +26,8 @@
 .article--first {
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8)),
     url("../img/blog-img1.png");
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8)),
+    url("../img/blog-img1.png");
   background: -webkit-gradient(
       linear,
       left top,
@@ -55,6 +50,8 @@
 .article--second {
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8)),
     url("../img/blog-img2.png");
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8)),
+    url("../img/blog-img2.png");
   background: -webkit-gradient(
       linear,
       left top,
@@ -75,6 +72,8 @@
 }
 
 .article--third {
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8)),
+    url("../img/blog-img3.png");
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8)),
     url("../img/blog-img3.png");
   background: -webkit-gradient(
