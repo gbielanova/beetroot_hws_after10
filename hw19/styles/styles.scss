@@ -1,0 +1,93 @@
+@import "./variables";
+@import "./mixins";
+@import "./price";
+@import "./popular";
+
+.page {
+  background-color: $colorBg;
+  padding: $padding;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.option {
+  background-color: $colorBgGrey;
+  min-width: 30%;
+
+  &__title {
+    @include text-styles($bebas, $colorBlack, 24px);
+  }
+
+  &__details {
+    background-color: $colorWhite;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    padding: $padding;
+  }
+
+  &__details--popular {
+    padding-bottom: 20%;
+    position: relative;
+  }
+
+  &__icon {
+    color: $colorBlack;
+    font-size: 30px;
+    margin: $padding auto;
+  }
+
+  &__text {
+    @include text-styles($roboto, $colorBlack, 16px, 300);
+  }
+
+  &__order {
+    @include text-styles($bebas, $colorWhite, 18px);
+    background-color: $colorBlue;
+    border: none;
+    border-radius: 27px;
+    padding: 15px 47px;
+    position: relative;
+    bottom: -30px;
+  }
+
+  &__order--popular {
+    background-color: $colorPink;
+    bottom: 30px;
+  }
+
+  &__footer {
+    @include text-styles($roboto, $colorGrey, 11px, 300);
+    position: relative;
+    bottom: 20px;
+  }
+
+  &__popular {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.option--popular {
+  position: relative;
+
+  &:hover {
+    .popular__text {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .page {
+    flex-direction: column;
+  }
+
+  .option {
+    min-width: 80%;
+    margin-bottom: 50px;
+  }
+}

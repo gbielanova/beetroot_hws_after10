@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
+.price__usd {
+  font-family: "Bebas Neue", cursive;
+  color: #181818;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  top: -20px;
+}
+
+.price__amount {
+  font-family: "Bebas Neue", cursive;
+  color: #181818;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.price__len {
+  font-family: "Bebas Neue", cursive;
+  color: #181818;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.popular__small {
+  background-color: #fd8d7b;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  right: -25px;
+}
+
+.popular__medium {
+  background-color: #fd8d7b;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: relative;
+  top: 7px;
+  right: -7px;
+}
+
+.popular__large {
+  font-family: "Bebas Neue", cursive;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #fd8d7b;
+  padding: 1px 12px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0;
+  top: 8px;
+  right: 20px;
+}
+
+.popular__text {
+  font-family: "Bebas Neue", cursive;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #181818;
+  padding: 8px 24px 8px 30px;
+  position: absolute;
+  top: 13px;
+  right: -70px;
+  border-radius: 100% 50% 50% 100%;
+  display: none;
+}
+
+.page {
+  background-color: #9789f9;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.option {
+  background-color: #f5f4f9;
+  min-width: 30%;
+}
+
+.option__title {
+  font-family: "Bebas Neue", cursive;
+  color: #181818;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.option__details {
+  background-color: #ffffff;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  padding: 5%;
+}
+
+.option__details--popular {
+  padding-bottom: 20%;
+  position: relative;
+}
+
+.option__icon {
+  color: #181818;
+  font-size: 30px;
+  margin: 5% auto;
+}
+
+.option__text {
+  font-family: "Roboto", sans-serif;
+  color: #181818;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.option__order {
+  font-family: "Bebas Neue", cursive;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #6fcffb;
+  border: none;
+  border-radius: 27px;
+  padding: 15px 47px;
+  position: relative;
+  bottom: -30px;
+}
+
+.option__order--popular {
+  background-color: #fd8d7b;
+  bottom: 30px;
+}
+
+.option__footer {
+  font-family: "Roboto", sans-serif;
+  color: #a9a9a9;
+  font-size: 11px;
+  font-weight: 300;
+  position: relative;
+  bottom: 20px;
+}
+
+.option__popular {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.option--popular {
+  position: relative;
+}
+
+.option--popular:hover .popular__text {
+  display: block;
+}
+
+@media only screen and (max-width: 767px) {
+  .page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .option {
+    min-width: 80%;
+    margin-bottom: 50px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

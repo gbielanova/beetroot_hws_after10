@@ -7,3 +7,4 @@
 | hw11        |    Шрифти у вебі, Font Face    |     hw11     |
 | hw12        |         Побудова форм          | cachee, hw12 |
 | hw13        | Scalable Vector Graphics (SVG) | cachee, hw13 |
+| hw19        |        Кросбраузерність        | cachee, hw19 |

@@ -1,0 +1,15 @@
+.price {
+  &__usd {
+    @include text-styles($bebas, $colorBlack, 24px);
+    position: relative;
+    top: -20px;
+  }
+
+  &__amount {
+    @include text-styles($bebas, $colorBlack, 60px);
+  }
+
+  &__len {
+    @include text-styles($bebas, $colorBlack, 16px);
+  }
+}

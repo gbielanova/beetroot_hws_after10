@@ -1,0 +1,43 @@
+.popular {
+  &__small {
+    background-color: $colorPink;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    right: -25px;
+  }
+
+  &__medium {
+    background-color: $colorPink;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 7px;
+    right: -7px;
+  }
+
+  &__large {
+    @include text-styles($bebas, $colorWhite, 24px);
+    background-color: $colorPink;
+    padding: 1px 12px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0;
+    top: 8px;
+    right: 20px;
+  }
+
+  &__text {
+    @include text-styles($bebas, $colorWhite, 16px);
+    background-color: $colorBlack;
+    padding: 8px 24px 8px 30px;
+    position: absolute;
+    top: 13px;
+    right: -70px;
+    border-radius: 100% 50% 50% 100%;
+    display: none;
+  }
+}
